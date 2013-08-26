@@ -1,3 +1,11 @@
+/*<div class="selectbox" data-id="multiselect" data-type="hover">
+	<input type="hidden" name="" value="">
+	<span class="title">Title</span>
+	<ul>
+		<li data-value="value" class="select">Label</li>
+		<li data-value="value" class="">Label</li>
+	</ul>
+</div>*/
 jQuery.fn.selectBox = function (){
 	all = this;
 	$(document).click(function(){
